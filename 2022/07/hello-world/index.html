@@ -27,26 +27,26 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1657111175053">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1657113309580">
     
-    <link rel="stylesheet" href="/css/style.css?v=1657111175054">
+    <link rel="stylesheet" href="/css/style.css?v=1657113309581">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1657111175054">
+            <link rel="stylesheet" href="/custom.css?v=1657113309581">
         
     
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body class="mdui-drawer-body-left">
     <div id="nexmoe-background">
-        <div class="nexmoe-bg" style="background-image: url()"></div>
+        <div class="nexmoe-bg" style="background-image: url(https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png)"></div>
         <div class="mdui-appbar mdui-shadow-0">
             <div class="mdui-toolbar">
                 <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
                 <div class="mdui-toolbar-spacer"></div>
                 <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-                <a href="/" title="宝石居士" class="mdui-btn mdui-btn-icon"><img src="https://devbago.oss-cn-hangzhou.aliyuncs.com/img/gem/logo.jpg" alt="宝石居士"></a>
+                <a href="/" title="宝石居士" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="宝石居士"></a>
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@
         <div class="nexmoe-drawer mdui-drawer" id="drawer">
     <div class="nexmoe-avatar mdui-ripple">
         <a href="/" title="宝石居士">
-            <img src="https://devbago.oss-cn-hangzhou.aliyuncs.com/img/gem/logo.jpg" alt="宝石居士" alt="宝石居士">
+            <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="宝石居士" alt="宝石居士">
         </a>
     </div>
     <div class="nexmoe-count">
@@ -78,7 +78,7 @@
             </div>
         </a>
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/PY.html" title="我的朋友">
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/py.html" title="我的朋友">
             <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
             <div class="mdui-list-item-content">
                 我的朋友
@@ -105,14 +105,20 @@
         
         <div class="nexmoe-widget-wrap">
     <div class="nexmoe-widget nexmoe-search">
-         
-            <form id="search_form" action_e="https://cn.bing.com/search?q=site:gem.bago.top" onsubmit="return search();">
-                <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+        
+            <form id="search_form">
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                    font-size: 15px !important;
+                    height: 56px !important;
+                    background-image: none;
+                "></label>
             </form>
          
     </div>
 </div>
 
+
+	<script async src="/js/search.js?v=1657113309581"></script>
 
 
 
@@ -122,22 +128,22 @@
 	<div class="nexmoe-widget nexmoe-social">
 		<a
 			class="mdui-ripple"
-			href="https://www.facebook.com/zhang.xizhe.9/"
+			href="https://jq.qq.com/?_wv=1027&k=5CfKHun"
 			target="_blank"
-			mdui-tooltip="{content: 'Facebook'}"
+			mdui-tooltip="{content: 'QQ群'}"
 			style="
-				color: rgb(231, 106, 141);
-				background-color: rgba(231, 106, 141, .1);
+				color: rgb(249, 174, 8);
+				background-color: rgba(249, 174, 8, .1);
 			"
 		>
 			<i
-				class="nexmoefont icon-facebook"
+				class="nexmoefont icon-QQ"
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://space.bilibili.com/432023489"
+			href="https://space.bilibili.com/20238211"
 			target="_blank"
-			mdui-tooltip="{content: 'Bilibili'}"
+			mdui-tooltip="{content: '哔哩哔哩'}"
 			style="
 				color: rgb(231, 106, 141);
 				background-color: rgba(231, 106, 141, .1);
@@ -148,7 +154,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://github.com/GemHermit"
+			href="https://github.com/nexmoe/"
 			target="_blank"
 			mdui-tooltip="{content: 'GitHub'}"
 			style="
@@ -161,7 +167,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://www.zhihu.com/people/bao-shi-ju-shi-cn"
+			href="https://www.zhihu.com/people/nexmoe"
 			target="_blank"
 			mdui-tooltip="{content: '知乎'}"
 			style="
@@ -174,20 +180,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://weibo.com/6008218964"
-			target="_blank"
-			mdui-tooltip="{content: '微博'}"
-			style="
-				color: rgb(30, 136, 229);
-				background-color: rgba(30, 136, 229, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-weboo"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://twitter.com/gemhermit"
+			href="https://twitter.com/nexmoe"
 			target="_blank"
 			mdui-tooltip="{content: 'Twitter'}"
 			style="
@@ -200,7 +193,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://gem.bago.top/atom.xml"
+			href="https://nexmoe.com/atom.xml"
 			target="_blank"
 			mdui-tooltip="{content: 'RSS'}"
 			style="
@@ -292,7 +285,7 @@
         &copy; 2022 宝石居士
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602012462"><img src="https://devbago.oss-cn-hangzhou.aliyuncs.com/img/beian.png" height="12px">浙公网安备33010602012462号</a> <br>
+        <br><a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2020018486号</a> <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"> <img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>
     </div>
 </div><!-- .nexmoe-drawer -->
     </div>
@@ -303,7 +296,7 @@
   <article>
       
           <div class="nexmoe-post-cover" style="padding-bottom: 56.71874999999999%;"> 
-              <img data-fancybox="gallery" src="" alt="Hello World" loading="lazy">
+              <img data-fancybox="gallery" src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="Hello World" loading="lazy">
               <h1>Hello World</h1>
           </div>
       
@@ -326,7 +319,7 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
 
 
-      <p><img data-fancybox="gallery" src="https://devbago.oss-cn-hangzhou.aliyuncs.com/img/gem/wx-gem.png"  alt="?" data-caption="?" loading="lazy" height-max="180px"></p>
+      <p><img data-fancybox="gallery" src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png"  alt="53a8c7cf3ad77a0f0a456ce2c6afe88a.png" data-caption="53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
   </article>
 
   
@@ -349,7 +342,7 @@
 
   
       <div class="nexmoe-post-footer">
-          评论框正在准备中
+          请在你的配置文件中设置评论框插槽
       </div>
   
 </div>
@@ -403,9 +396,9 @@
 
  
 
-<script async src="/js/app.js?v=1657111175063"></script>
+<script async src="/js/app.js?v=1657113309585"></script>
 
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
 <script>
 	$(".justified-gallery").justifiedGallery({
